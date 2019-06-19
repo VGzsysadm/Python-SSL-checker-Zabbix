@@ -1,6 +1,6 @@
 # Python-SSL-checker-Zabbix
 
-At least python 3.6+ is required.
+Tested on python 3.5 - 3.6 - 3.7
 
 ###### Params expected for the script
 ```
