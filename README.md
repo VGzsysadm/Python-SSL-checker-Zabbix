@@ -12,8 +12,6 @@ Return: 354
 ###### This script is a modification from  gdamjan/ssl-check.py - https://gist.github.com/gdamjan/55a8b9eec6cf7b771f92021d93b87b2c
 ###### Ready for Zabbix.
 
-Usage on zabbix
-
 Drop the script at /usr/lib/zabbix/externalscripts
 
 Grant ownage to zabbix user and chmod 755
