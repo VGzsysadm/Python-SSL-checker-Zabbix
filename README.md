@@ -13,6 +13,7 @@ Return: 354
 
 ###### This script is a modification from  gdamjan/ssl-check.py - https://gist.github.com/gdamjan/55a8b9eec6cf7b771f92021d93b87b2c
 ###### Ready for Zabbix.
+###### It works specially for SNI certificates like cloudflare, other type of certs should work too
 
 Drop the script at /usr/lib/zabbix/externalscripts
 
