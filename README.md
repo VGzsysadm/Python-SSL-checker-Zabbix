@@ -1,11 +1,13 @@
 # Python-SSL-checker-Zabbix
 
+At least python 3.6+ is required.
+
 ###### Params expected for the script
 ```
 Params:
 -s --site Example: cert.py -s consultoronline.cloud
 Return: /C=US/ST=CA/L=San Francisco/O=CloudFlare, Inc./CN=CloudFlare Inc ECC CA-2
--e --expiration Example: cert.py -s consultoronline.cloud
+-e --expiration Example: cert.py -e consultoronline.cloud
 Return: 354
 ```
 
