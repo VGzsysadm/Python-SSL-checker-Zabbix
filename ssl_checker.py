@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #######
 # Author: VGzsysadm - sysadm.es - consultoronline.cloud
 # repository: https://github.com/VGzsysadm/Python-SSL-checker-Zabbix
