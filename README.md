@@ -10,4 +10,4 @@ Return: 354
 ```
 
 ###### This script is a modification from  gdamjan/ssl-check.py - https://gist.github.com/gdamjan/55a8b9eec6cf7b771f92021d93b87b2c
-Ready for Zabbix.
+###### Ready for Zabbix.
