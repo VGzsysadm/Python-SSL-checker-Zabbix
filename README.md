@@ -23,9 +23,10 @@ With the following macro:
 {$HOSTNAME} = dns_domain_to_check
 
 Add an item with the following key:
-
+```
 ssl_checker.py["-s","{HOSTNAME}"] -> will return CN
 ssl_checker.py["-e","{HOSTNAME}"] -> will return days left to expire
+```
 
 Type text for CN checker
 Type integer for expiration check
