@@ -5,9 +5,9 @@ Tested on python 3.5 - 3.6 - 3.7
 ###### Params expected for the script
 ```
 Params:
--s --site Example: cert.py -s consultoronline.cloud
+-s --site Example: ssl_checker.py -s consultoronline.cloud
 Return: /C=US/ST=CA/L=San Francisco/O=CloudFlare, Inc./CN=CloudFlare Inc ECC CA-2
--e --expiration Example: cert.py -e consultoronline.cloud
+-e --expiration Example: ssl_checker.py -e consultoronline.cloud
 Return: 354
 ```
 
