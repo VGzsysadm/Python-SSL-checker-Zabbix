@@ -34,10 +34,10 @@ def verify_sn(hostname, port):
     cert = sock_ssl.get_peer_certificate()
     crypto_cert = cert.get_issuer()
     dirty = str(crypto_cert)
-    regex = re.search("\'(.*.)'", dirty) 
+    regex = re.search("[^=]*(CN=*)(.*)'", dirty)
     sock_ssl.close()
     sock.close()
-    return regex.group(1)
+    return regex.group(2)
 
 def verify_cert(hostname, port):
     hostname_idna = idna.encode(hostname)
@@ -64,7 +64,7 @@ def get_expiration(hostinfo):
     result = notafter=hostinfo.cert.not_valid_after
     delta = result - datenow
     dirty = str(delta)
-    regex = re.search("^.{0,3}\s?\d+", dirty) 
+    regex = re.search("^.{0,3}\s?\d+", dirty)
     return regex.group(0)
 
 def main():
