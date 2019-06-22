@@ -1,6 +1,6 @@
 # Python-SSL-checker-Zabbix
 
-Tested on python 3.5 - 3.6 - 3.7
+Works on python 3.7
 
 ###### Params expected for the script
 ```
@@ -12,11 +12,11 @@ Return: 354
 ```
 
 ###### This script is a modification from  gdamjan/ssl-check.py - https://gist.github.com/gdamjan/55a8b9eec6cf7b771f92021d93b87b2c
-###### Ready for Zabbix.
+###### Configuration for Zabbix.
 ###### It works specially for SNI certificates like cloudflare, other type of certs should work too
 
-Drop the script at /usr/lib/zabbix/externalscripts
+Place the script at /usr/lib/zabbix/externalscripts/
 
-Grant ownage to zabbix user and chmod 755
+Grant ownage to zabbix user and group and chmod 755 the script.
 
 Import the template
