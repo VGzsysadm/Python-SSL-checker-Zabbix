@@ -3,9 +3,9 @@
 Python 3.7 dependencies:
 ```
 #Python3.7
-#pip install pyopenssl
-#pip install cryptography
-#pip install idna
+#pip3.7 install pyopenssl
+#pip3.7 install cryptography
+#pip3.7 install idna
 ```
 
 ###### Params expected for the script
