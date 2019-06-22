@@ -19,4 +19,4 @@ Place the script at /usr/lib/zabbix/externalscripts/
 
 Grant ownage to zabbix user and group and chmod 755 the script.
 
-Import the template
+Import the template Python-SSL-checker-Zabbix.xml
