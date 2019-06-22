@@ -1,6 +1,11 @@
 # Python-SSL-checker-Zabbix
 
-Works on python 3.7
+Python 3.7 dependencies:
+
+#Python3.7
+#pip install pyopenssl
+#pip install cryptography
+#pip install idna
 
 ###### Params expected for the script
 ```
