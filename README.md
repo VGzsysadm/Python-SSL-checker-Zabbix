@@ -12,7 +12,7 @@ Python 3.7 dependencies:
 ```
 Params:
 -s --site Example: ssl_checker.py -s consultoronline.cloud
-Return: /C=US/ST=CA/L=San Francisco/O=CloudFlare, Inc./CN=CloudFlare Inc ECC CA-2
+Retuurn: CloudFlare Inc ECC CA-2
 -e --expiration Example: ssl_checker.py -e consultoronline.cloud
 Return: 354
 ```
